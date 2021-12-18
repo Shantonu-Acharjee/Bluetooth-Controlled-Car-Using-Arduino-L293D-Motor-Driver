@@ -1,3 +1,17 @@
+/*
+
+Project Name :- Bluetooth Controlled Car Using Arduino (L293D Motor Driver)
+Full Blog Link :- https://tinyurl.com/y67p9uhs
+Github Project Link :- https://tinyurl.com/y3pcfj2e
+
+
+Author: Shantonu Acharjee
+Email: shantonuacharjee@gmail.com
+YouTube :- https://tinyurl.com/yf466yws
+FaceBook: http://tinyurl.com/y52rgdd4
+
+*/
+
 #include <AFMotor.h>
 AF_DCMotor motor1(1);
 AF_DCMotor motor2(2);
@@ -16,7 +30,7 @@ if(Serial.available()){
   Serial.println(t);
 Serial.print(t);
 }
-if(t == 'F'){            //move forward(all motors rotate in forward direction)
+if(t == 'F'){//move forward(all motors rotate in forward direction)
    
   motor1.setSpeed(255);
   motor1.run(FORWARD);
@@ -34,7 +48,7 @@ if(t == 'F'){            //move forward(all motors rotate in forward direction)
 
 
 
-if(t == 'B'){            //move Back(all motors rotate in Back direction)
+if(t == 'B'){//move Back(all motors rotate in Back direction)
    
   motor1.setSpeed(255);
   motor1.run(BACKWARD);
@@ -52,7 +66,7 @@ if(t == 'B'){            //move Back(all motors rotate in Back direction)
 
 
 
-if(t == 'R'){            //move Left(all motors rotate in Left direction)
+if(t == 'R'){//move Left(all motors rotate in Left direction)
    
   motor1.setSpeed(255);
   motor1.run(BACKWARD);
@@ -70,7 +84,7 @@ if(t == 'R'){            //move Left(all motors rotate in Left direction)
 
 
 
-if(t == 'L'){            //move RIGHT(all motors rotate in RIGHT direction)
+if(t == 'L'){//move RIGHT(all motors rotate in RIGHT direction)
    
   motor1.setSpeed(255);
   motor1.run(FORWARD);
