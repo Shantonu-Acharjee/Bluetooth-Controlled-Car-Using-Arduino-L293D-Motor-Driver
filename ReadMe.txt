@@ -28,5 +28,18 @@ How do I make my car Bluetooth with Arduino and l293d?
 bluetooth controlled robot using arduino
 Max Electronics BD Arduino Bluetooth controlled car L293D Motor Driver
 
+How To Make Bluetooth Car Using Arduino,Bluetooth control car,
+how to make car with arduino,
+bt car Bangla,
+arduino project,
+Max Electronics BD
+
+#How_To_Make_Bluetooth_Car_Using_Arduino
+#Bluetooth_control_car
+#how_to_make_car_with_arduino
+#_bt_car_Bangla
+#arduino_project
+#Max_Electronics_BD
+
 
 
